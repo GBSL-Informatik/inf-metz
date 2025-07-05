@@ -1,0 +1,27 @@
+.accountSwitcher {
+    position: relative;
+    .accountSwitcherButton {
+        height: 1.55rem;
+    }
+}
+
+.wrapper {
+    .body {
+        // overflow-y: hidden;
+        // max-height: 2em;
+        .userList {
+            max-height: 20em;
+            overflow-y: auto;
+        }
+    }
+}
+
+.switchToUserButton {
+    width: fit-content;
+    position: relative;
+    .liveIndicator {
+        position: absolute;
+        left: 3px;
+        top: 1px;
+    }
+}

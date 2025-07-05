@@ -1,0 +1,31 @@
+.personalSpaceOverlay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    .content {
+        border-radius: var(--ifm-global-radius);
+        overflow: auto;
+        width: 80vw;
+        height: 80vh;
+    }
+}
+
+.buttonWrapper {
+    margin-right: 0.2em;
+
+    .button {
+        padding: 0.5px 0.1rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .personalSpaceOverlay {
+        .content {
+            width: 98vw;
+        }
+    }
+}
