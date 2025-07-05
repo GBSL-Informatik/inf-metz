@@ -1,4 +1,4 @@
-# Website
+# Teaching Website
 My teaching website, built on the basis of the [teaching-dev](https://github.com/GBSL-Informatik/teaching-dev) project. Visit at [https://gbsl.silasberger.ch/](https://gbsl.silasberger.ch/).
 
 ## Quickstart
