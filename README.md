@@ -79,7 +79,7 @@ TODO: Adding a script. Adding an index page. Changing the landing page.
 
 ### Customizing content
 TODO:
-- Changing a doc.
+- Changing a doc
 - Adding a doc / topic
 
 ### Deploying the local API
