@@ -69,9 +69,9 @@ const getSiteConfig: SiteConfigProvider = () => {
     }
 
     return {
-        title: 'Unterricht S. Berger',
+        title: 'Informatik F. Metz',
         tagline: 'Informatik',
-        url: 'https://gbsl.silasberger.ch',
+        url: 'https://metz.gbsl.website',
         siteStyles: ['website/css/custom.scss'],
         navbarItems: [
             taskStateOverview,
@@ -138,8 +138,8 @@ const getSiteConfig: SiteConfigProvider = () => {
                 }
             ],
             copyright: `<a class="footer__link-item" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">
-                          <img src="/img/by-nc-sa.eu.svg" alt="CC-BY-NC-SA">© ${new Date().getFullYear()} Silas Berger</a> | Ausnahmen sind gekennzeichnet.<br/>
-                          <a class="badge badge--primary" href="https://github.com/SilasBerger/teaching-website/commits/${GIT_COMMIT_SHA}">
+                          <img src="/img/by-nc-sa.eu.svg" alt="CC-BY-NC-SA">© ${new Date().getFullYear()} Friederike Metz</a> | Ausnahmen sind gekennzeichnet.<br/>
+                          <a class="badge badge--primary" href="https://github.com/GBSL-Informatik/inf-metz/commits/${GIT_COMMIT_SHA}">
                             ᚶ ${GIT_COMMIT_SHA.substring(0, 7)}</a>`
         },
         onBrokenLinks: 'warn',
@@ -149,34 +149,10 @@ const getSiteConfig: SiteConfigProvider = () => {
             versions: versions
         },
         remarkPlugins: REMARK_PLUGINS,
-        personalSpaceDocRootId: 'f00a2e3e-c7f9-4dbe-ad02-6546daf72477',
-        themeConfig: {
-            algolia: {
-                appId: 'Z6FIZQ5MSD',
-                apiKey: '7152c9a398beb4325de68df4f6a62acd',
-                indexName: 'gbsl-silasberger',
-                searchPagePath: 'search'
-            }
-        },
-        scripts: [
-            {
-                src: 'https://brr-umami.gbsl.website/script.js',
-                ['data-website-id']: process.env.UMAMI_ID,
-                ['data-domains']: 'gbsl.silasberger.ch',
-                async: true,
-                defer: true
-            }
-        ],
+        personalSpaceDocRootId: 'c3d604b1-deca-40c6-a6ae-66b74aac4f4f',
         gitHub: {
-            orgName: 'SilasBerger',
-            projectName: 'teaching-website'
-        },
-        transformers: {
-            themes: (themes: any[]) => {
-                const codeEditorTheme = themes.find((theme) => !!theme[1].brythonSrc);
-                codeEditorTheme[1].libDir = 'https://silasberger.github.io/bry-libs/';
-                return themes;
-            }
+            orgName: 'GBSL-Informatik',
+            projectName: 'inf-metz'
         }
     } as SiteConfig;
 };
