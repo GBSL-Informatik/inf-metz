@@ -1,7 +1,7 @@
 ---
 29Gn:
     markers:
-        gym.29Gn: 0
+        gbsl.gym29: 0
     mappings:
         - section: /index.mdx
           material: /Structure/klassen/29Gn/index.mdx
@@ -10,7 +10,7 @@
         - section: /praktikum.json
           material: /Structure/klassen/29Gn/praktikum.json
         - section: 01-Onboarding
-          material: Onboarding-2024
+          material: Onboarding-2025
         - section: 02-Erste-Hilfe
           material: Erste-Hilfe
         - section: 03-BYOD-Basics
@@ -25,3 +25,19 @@
           material: Textverarbeitung-Style
         - section: 08-Repetition-IN-GYM1/index.mdx
           material: Repetition-2025/Repetition-GYM28-Kurz.mdx
+29Gd:
+    markers:
+        gbsl.gym29: 0
+    mappings:
+        - section: /index.mdx
+          material: /Structure/klassen/29Gd/index.mdx
+        - section: /einzellektion.json
+          material: /Structure/klassen/29Gd/einzellektion.json
+        - section: /praktikum.json
+          material: /Structure/klassen/29Gd/praktikum.json
+        - section: 01-Onboarding
+          material: Onboarding-2025
+        - section: 02-Erste-Hilfe
+          material: Erste-Hilfe
+        - section: 03-BYOD-Basics
+          material: BYOD-Basics
