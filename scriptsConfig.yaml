@@ -14,17 +14,17 @@
         - section: 02-Erste-Hilfe
           material: Erste-Hilfe
         - section: 03-BYOD-Basics
-          material: BYOD-Basics
-        - section: 04-Programmieren-1
-          material: Programmieren-1
-        - section: 05-IN-Biber-2024
-          material: IN-Biber/2024
-        - section: 06-Information-Daten
-          material: Information-Daten
-        - section: 07-Textverarbeitung-und-Style
-          material: Textverarbeitung-Style
-        - section: 08-Repetition-IN-GYM1/index.mdx
-          material: Repetition-2025/Repetition-GYM28-Kurz.mdx
+          material: BYOD-Basics-2025
+        # - section: 04-Programmieren-1
+        #   material: Programmieren-1
+        # - section: 05-IN-Biber-2024
+        #   material: IN-Biber/2024
+        # - section: 06-Information-Daten
+        #   material: Information-Daten
+        # - section: 07-Textverarbeitung-und-Style
+        #   material: Textverarbeitung-Style
+        # - section: 08-Repetition-IN-GYM1/index.mdx
+        #   material: Repetition-2025/Repetition-GYM28-Kurz.mdx
 29Gd:
     markers:
         gbsl.gym29: 0
@@ -40,4 +40,4 @@
         - section: 02-Erste-Hilfe
           material: Erste-Hilfe
         - section: 03-BYOD-Basics
-          material: BYOD-Basics
+          material: BYOD-Basics-2025
