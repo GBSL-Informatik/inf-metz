@@ -15,8 +15,8 @@
           material: Erste-Hilfe
         - section: 03-BYOD-Basics
           material: BYOD-Basics-2025
-        # - section: 04-Programmieren-1
-        #   material: Programmieren-1
+        - section: 04-Programmieren
+          material: Programmieren-2025
         # - section: 05-IN-Biber-2024
         #   material: IN-Biber/2024
         # - section: 06-Information-Daten
@@ -41,3 +41,5 @@
           material: Erste-Hilfe
         - section: 03-BYOD-Basics
           material: BYOD-Basics-2025
+        - section: 04-Programmieren
+          material: Programmieren-2025
