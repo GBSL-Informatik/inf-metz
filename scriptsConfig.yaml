@@ -13,8 +13,8 @@
           material: Onboarding-2025
         - section: 02-Erste-Hilfe
           material: Erste-Hilfe
-        - section: 03-BYOD-Basics
-          material: BYOD-Basics-2025
+        # - section: 03-BYOD-Basics
+        #   material: BYOD-Basics-2025
         - section: 04-Programmieren
           material: Programmieren-2025
         # - section: 05-IN-Biber-2024
@@ -39,7 +39,7 @@
           material: Onboarding-2025
         - section: 02-Erste-Hilfe
           material: Erste-Hilfe
-        - section: 03-BYOD-Basics
-          material: BYOD-Basics-2025
+        # - section: 03-BYOD-Basics
+        #   material: BYOD-Basics-2025
         - section: 04-Programmieren
           material: Programmieren-2025
