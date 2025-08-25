@@ -2,43 +2,44 @@
   {
     "cells": [
       "18.08.2025",
+      "Entfall",
+      ""
+    ],
+    "type": "event"
+  },
+  {
+    "cells": [
+      "25.08.2025",
       "Einführung",
       ""
     ]
   },
   {
     "cells": [
-      "25.08.2025",
-      "",
-      ""
-    ]
-  },
-  {
-    "cells": [
       "01.09.2025",
-      "",
-      ""
+      "BYOD Basics",
+      "Ziel: Modul 1 fertig"
     ]
   },
   {
     "cells": [
       "08.09.2025",
-      "",
-      ""
+      "BYOD Basics",
+      "Ziel: Modul 2 fertig"
     ]
   },
   {
     "cells": [
       "15.09.2025",
-      "",
-      ""
+      "BYOD Basics",
+      "Ziel: Module 3+4 fertig"
     ]
   },
   {
     "cells": [
       "22.09.2025",
-      "",
-      ""
+      "BYOD Basics",
+      "Ziel: Modul 5 fertig, Szenarienbibliothek"
     ]
   },
   {
@@ -68,23 +69,24 @@
   {
     "cells": [
       "20.10.2025",
-      "",
-      ""
+      "BYOD Basics",
+      "Feedback-Runde zur fertigen Szenarienbibliothek"
     ]
   },
   {
     "cells": [
       "27.10.2025",
-      "",
-      ""
+      "BYOD Basics",
+      "Üben"
     ]
   },
   {
     "cells": [
       "03.11.2025",
-      "",
+      "BYOD Basics",
       ""
-    ]
+    ],
+    "type": "test"
   },
   {
     "cells": [
