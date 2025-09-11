@@ -14,7 +14,7 @@ import Restricted from '@tdev-components/documents/Restricted';
 Struktogramme sind eine weitere Möglichkeit, Programme und Algorithmen grafisch darzustellen. Diese Dartstellungsform wurde 1973 von Isaac Nassi und Ben Shneiderman vorgeschlagen und heisst deshalb auch Nassi-Shneiderman-Diagramm.[^1]
 
 :::tip[Farben]
-Die hier verwendeten Farben nur eine optische Hilfe. Sie haben keine besondere Bedeutung.
+Die hier verwendeten Farben sind nur eine optische Hilfe. Sie haben keine besondere Bedeutung.
 :::
 
 ## Sequenz 👣
@@ -38,8 +38,9 @@ Eine Schleife («Wiederholung») wird wie folgt dargestellt.
 ]} />
 
 :::tip[Bemerke]
-- Beim Struktogramm wird der wiederholte Teil durch die **Einrückung** ersichtlich. Auch in Python werden wiederholte Sequenzen (Zeilen 4-5) visuell mit einem Tabulator eingerückt.
-- Der Doppelpunkt am Zeilenende zeigt an, dass eine eingerückte Sequenz (beim Programmieren spricht man von einem *Codeblock*) folgt.
+Beim Struktogramm wird der wiederholte Teil durch die **Einrückung** ersichtlich. Auch beim Programmieren in vielen Programmiersprachen werden wiederholte Sequenzen visuell mit einem Tabulator eingerückt.
+{/* - Beim Struktogramm wird der wiederholte Teil durch die **Einrückung** ersichtlich. Auch in Python werden wiederholte Sequenzen (Zeilen 4-5) visuell mit einem Tabulator eingerückt.
+- Der Doppelpunkt am Zeilenende zeigt an, dass eine eingerückte Sequenz (beim Programmieren spricht man von einem *Codeblock*) folgt. */}
 :::
 
 ## Bedingte Ausführung (Verzweigung) ☑️
@@ -185,13 +186,13 @@ Um zu prüfen, ob zwei Werte gleich sind (z.B. in der Bedingung einer Schleife o
 ]} />
 :::
 
-Variablen werden von Algorithmus bei der Ausführung mit Werten gefüllt, um diese bei der Berechnung zu verwenden oder um sie später auszugeben. Bei einigen Variablen können wir den Wert aber auch von aussen vorgeben – nämlich immer bei einem solchen Block:
+Variablen werden vom Algorithmus bei der Ausführung mit Werten gefüllt, um diese bei der Berechnung zu verwenden oder um sie später auszugeben. Bei einigen Variablen können wir den Wert aber auch von aussen vorgeben – nämlich immer bei einem solchen Block:
 
 <Struktogramm program={[
   {type: 'input', code: <span>Eingabe: <span className="var">x</span></span>}
 ]} />
 
-Dieser Block erlaubt uns, den Wert eine Variable – in diesem Fall `x` – von aussen vorzugeben. Eine solche Variable nennem wir einen **Parameter**. _Parameter_ sind die **E**ingabe im **EVA**-Prinzip. Wir können damit steuern, mit welchem Wert (oder welchen Werten) der Algorithmus ausgeführt werden soll.
+Dieser Block erlaubt uns, den Wert eine Variable – in diesem Fall `x` – von aussen vorzugeben. Eine solche Variable nennen wir einen **Parameter**. _Parameter_ sind die **E**ingabe im **EVA**-Prinzip. Wir können damit steuern, mit welchem Wert (oder welchen Werten) der Algorithmus ausgeführt werden soll.
 
 Im folgenden Struktogramm haben wir zwei Parameter, `a` und `b`, die wir von aussen vorgeben können. Der Algorithmus addiert diese beiden Zahlen und speichert das Ergebnis in der Variable `c`. Anschliessend gibt er den Wert von `c` aus:
 
@@ -202,7 +203,7 @@ Im folgenden Struktogramm haben wir zwei Parameter, `a` und `b`, die wir von aus
   {type: 'output', code: <span>Ausgabe: <span className="var">c</span></span>}
 ]} />
 
-Hier sprechen wir bei `a` und `b` von Parametern, weil wir sie von aussen vorgeben können. Schliesslich müssen wir dem Algorithmus ja sagen, welche Zahlen er addieren soll. Der Wert von `c` hingegen wird im Algorithmus berechnet und ist deshalb keine Variable, die wir von aussen vorgeben können. Wir können den Wert vo `c` also nicht selbst festlegen.
+Hier sprechen wir bei `a` und `b` von Parametern, weil wir sie von aussen vorgeben können. Schliesslich müssen wir dem Algorithmus ja sagen, welche Zahlen er addieren soll. Der Wert von `c` hingegen wird im Algorithmus berechnet und ist deshalb keine Variable, die wir von aussen vorgeben können. Wir können den Wert von `c` also nicht selbst festlegen.
 
 ## Struktogramme in Aktion
 ### Addition zweier Zahlen
