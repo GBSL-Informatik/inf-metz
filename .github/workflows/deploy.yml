@@ -8,15 +8,14 @@ on:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
-  build:
-    name: Build Docusaurus
+  build_and_check:
+    name: Build and run checks
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: 'true'
-          # token: ${{ secrets.TW_CONFIDENTIAL_MATERIAL_PAT }}
-          fetch-depth: 0
+          token: ${{ secrets.TW_CONFIDENTIAL_MATERIAL_PAT }}
       - uses: actions/setup-node@v4
         with:
           node-version: '>=22.11.0'
