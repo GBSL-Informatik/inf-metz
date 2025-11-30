@@ -19,8 +19,8 @@
           material: Programmieren-2025
         - section: 05-IN-Biber-2025
           material: IN-Biber/2025
-        # - section: Probe-Turtle-1
-        #   material: tw_confidential-material/Probe-Turtle-1-GYM29
+        - section: Probe-Turtle-1
+          material: tw_confidential-material/Probe-Turtle-1-GYM29
         # - section: 06-Information-Daten
         #   material: Information-Daten
         # - section: 07-Textverarbeitung-und-Style
