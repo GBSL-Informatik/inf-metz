@@ -86,24 +86,24 @@
     "cells": [
       "28.10.2025",
       "A",
-      "Algorithmen",
-      "Struktogramme"
+      "Algorithmen & Programmieren",
+      "Struktogramme, Turtle Einstieg"
     ]
   },
   {
     "cells": [
       "04.11.2025",
       "B",
-      "",
-      ""
+      "Programmieren",
+      "Einstieg"
     ]
   },
   {
     "cells": [
       "11.11.2025",
       "A",
-      "",
-      ""
+      "Programmieren",
+      "Farben & for-Schleife"
     ]
   },
   {
@@ -111,15 +111,16 @@
       "18.11.2025",
       "B",
       "",
-      ""
-    ]
+      "Entfall"
+    ],
+    "type": "event"
   },
   {
     "cells": [
       "25.11.2025",
       "A",
-      "",
-      ""
+      "Programmieren",
+      "while-Schleife, Variablen, Datentypen"
     ]
   },
   {
@@ -135,16 +136,16 @@
     "cells": [
       "09.12.2025",
       "B",
-      "",
-      ""
+      "Programmieren",
+      "for-Schleife, while-Schleife, Variablen, Datentypen"
     ]
   },
   {
     "cells": [
       "16.12.2025",
       "A",
-      "",
-      ""
+      "Programmieren",
+      "Zufall, Eingabe & Ausgabe"
     ]
   },
   {
@@ -169,24 +170,24 @@
     "cells": [
       "06.01.2026",
       "B",
-      "",
-      ""
+      "Programmieren",
+      "Zufall, Eingabe & Ausgabe"
     ]
   },
   {
     "cells": [
       "13.01.2026",
       "A",
-      "",
-      ""
+      "Programmieren",
+      "Verzweigung"
     ]
   },
   {
     "cells": [
       "20.01.2026",
       "B",
-      "",
-      ""
+      "Programmieren",
+      "Verzweigung"
     ]
   },
   {
