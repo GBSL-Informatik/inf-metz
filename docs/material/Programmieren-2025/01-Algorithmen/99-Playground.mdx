@@ -84,28 +84,26 @@ Zur Erstellung von Struktogrammen für Arbeitsblätter und Folien.
 <Struktogramm program={[
   {type: 'input', code: <span>Eingabe: <span className="var">n</span></span>},
 
-  {type: 'step', code: <span>Falls <span className="var">n</span> = 0 → Ausgabe: 1, Ende</span>},
-
-  {type: 'step', code: <span><span className="var">count</span> = 0</span>},
+  {type: 'step', code: <span><span className="var">zaehler</span> = 0</span>},
 
   {type: 'repeat', code: <span>Solange <span className="var">n</span> &gt; 0</span>, block: [
 
       // QUOTIENT PER SUBTRAKTION ERMITTELN
-      {type: 'step', code: <span><span className="var">quot</span> = 0</span>},
+      {type: 'step', code: <span><span className="var">d</span> = 0</span>},
 
       {type: 'repeat', code: <span>Solange <span className="var">n</span> ≥ 10</span>, block: [
           {type: 'step', code: <span><span className="var">n</span> = <span className="var">n</span> - 10</span>},
-          {type: 'step', code: <span><span className="var">quot</span> = <span className="var">quot</span> + 1</span>},
+          {type: 'step', code: <span><span className="var">d</span> = <span className="var">d</span> + 1</span>},
       ]},
 
       // Ziffer entfernt → nächste Runde
-      {type: 'step', code: <span><span className="var">count</span> = <span className="var">count</span> + 1</span>},
+      {type: 'step', code: <span><span className="var">zaehler</span> = <span className="var">zaehler</span> + 1</span>},
 
       // Für nächste Stelle Zahl durch 10 ersetzen (quotient)
-      {type: 'step', code: <span><span className="var">n</span> = <span className="var">quot</span></span>},
+      {type: 'step', code: <span><span className="var">n</span> = <span className="var">d</span></span>},
   ]},
 
-  {type: 'output', code: <span>Ausgabe: <span className="var">count</span></span>},
+  {type: 'output', code: <span>Ausgabe: <span className="var">zaehler</span></span>},
 ]} />
 
 ### Fibonacci-Zahlen
