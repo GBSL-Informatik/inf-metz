@@ -2,8 +2,6 @@
 page_id: f171d550-dfda-4f93-9a79-395622d602f9
 ---
 
-{/* import DividerConnector from '@tdev-components/DividerConnector'; */}
-
 # Sichtbarkeit von Variablen
 Im Umgang mit Variablen müssen wir genau darauf achten, ob diese innerhalb oder ausserhalb von Funktionen (bzw. Methoden) definiert wurden.
 
@@ -89,7 +87,6 @@ Die tatsächliche Ausgabe sieht aber so aus:
 
 Die Zuweisung auf Zeile `7` interpretiert Python nämlich nicht als Veränderung der _globalen_ Variable `zahl`, sondern als Definition einer neuen _lokalen_ Variable innerhalb der Funktion `ueberschreibe_zahl()`, die «zufällig» den gleichen Namen hat. Diese lokale Variable hat auf Zeile `8` erwartungsgemäss den Wert `20`. Da die _globale_ Variable aber unverändert bleibt, hat diese beim Aufruf auf Zeile `12` nach wie vor den Wert `10`.
 
-{/* <DividerConnector /> */}
 
 Um eine _globale_ Variable aber _innerhalb_ einer Funktion verändern zu können, brauchen wir das Schlüsselwort `global`, gefolgt von der globalen Variable, welche wir innerhalb dieser Funktion verändern möchten:
 
