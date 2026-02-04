@@ -6,7 +6,7 @@ Gut, dass unser Abenteurer im letzten Kapitel trocken geblieben ist. Damit sind 
 
 Gehen Sie dazu am besten nochmal [zurück zum vorherigen Kapitel](Funktionen) und schauen Sie sich die Zeilen `10` und `24` genau an. Was fällt Ihnen auf?
 
-Sie werden feststellen, dass die beiden Zeilen identisch sind. Wir wiederholen uns also. Die beiden Zeilen sind nicht nur genau gleich, sondern sie erfüllen auch genau den gleichen Zweck: Sie informieren den Spieler darüber, dass seine Angabe ungültig war, und dass das Spiel damit deshalb vorbei ist. Diese unnötige Wiederholung macht unseren Code nicht nur unübersichtlicher, sondern ist zudem auch eine Fehlerquelle. Was passiert zum Beispiel, wenn wir den Text für diesen Fall anpassen wollen? Wir müssen ihn mehreren Orten anpassen, und die Chance ist gross, dass wir es irgendwo vergessen.
+Sie werden feststellen, dass die beiden Zeilen identisch sind. Wir wiederholen uns also. Die beiden Zeilen sind nicht nur genau gleich, sondern sie erfüllen auch genau den gleichen Zweck: Sie informieren den Spieler darüber, dass seine Angabe ungültig war, und dass das Spiel damit deshalb vorbei ist. Diese unnötige Wiederholung macht unseren Code nicht nur unübersichtlicher, sondern ist zudem auch eine Fehlerquelle. Was passiert zum Beispiel, wenn wir den Text für diesen Fall anpassen wollen? Wir müssen ihn an mehreren Orten anpassen, und die Chance ist gross, dass wir es irgendwo vergessen.
 
 In diesem Kapitel machen wir also nur eine einzige Anpassung: Wir verschieben die "Logik" für den Fall einer ungültigen Wahl in ihre eigene Funktion namens `ungueltige_wahl()`.
 
@@ -41,7 +41,7 @@ else:
 ```
 
 :::insight[Sprechender Code]
-Diese kleine Verbesserung hat noch einen weiteren hübschen Nebeneffekt: Der Code wird gleich viel "sprechender". Beispielsweise können wir die Zeilen `12`-`13` praktisch als Satzfragment lesen: "else ungueltige wahl", also, "andernfalls ist das einen ungültige Wahl".
+Diese kleine Verbesserung hat noch einen weiteren hübschen Nebeneffekt: Der Code wird gleich viel "sprechender". Beispielsweise können wir die Zeilen `12`-`13` praktisch als Satzfragment lesen: "else ungueltige wahl", also, "andernfalls ist das eine ungültige Wahl".
 :::
 
 ---
