@@ -19,14 +19,14 @@
           material: Programmieren-2025
         - section: 05-IN-Biber-2025
           material: IN-Biber/2025
-        - section: SOL-Text-Adventure
+        - section: 06-SOL-Text-Adventure
           material: SOL-Text-Adventure
-        - section: Probe-Turtle-2
+        - section: 07-Probe-Turtle-2
           material: tw_confidential-material/Probe-Turtle-2-GYM29-29Gn
         # - section: 06-Information-Daten
         #   material: Information-Daten
-        # - section: 07-Textverarbeitung-und-Style
-        #   material: Textverarbeitung-Style
+        - section: 08-Textverarbeitung-und-Style
+          material: Textverarbeitung-Style
         # - section: 08-Repetition-IN-GYM1/index.mdx
         #   material: Repetition-2025/Repetition-GYM28-Kurz.mdx
 29Gd:
@@ -49,7 +49,9 @@
           material: Programmieren-2025
         - section: 05-IN-Biber-2025
           material: IN-Biber/2025
-        - section: SOL-Text-Adventure
+        - section: 06-SOL-Text-Adventure
           material: SOL-Text-Adventure
-        - section: Probe-Turtle-2
+        - section: 07-Probe-Turtle-2
           material: tw_confidential-material/Probe-Turtle-2-GYM29-29Gd
+        - section: 08-Textverarbeitung-und-Style
+          material: Textverarbeitung-Style
