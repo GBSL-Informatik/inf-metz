@@ -5,8 +5,6 @@ trackedElements:
       dst: docusaurus.config.ts
     - src: src/
       dst: src
-      ignore:
-          - theme/**
     - src: packages/tdev/
       dst: packages/tdev
     - src: updateSync/
@@ -21,9 +19,10 @@ trackedElements:
       dst: docs/tdev
     - src: static/bry-libs/
       dst: static/bry-libs
+    - src: static/pyodide.sw.js
+      dst: static/pyodide.sw.js
 watchedElements:
     - .babel.config.js
     - package.json
     - .env.example
-    - src/theme/**
     - src/siteConfig/markdownPluginConfigs.ts # This is tracked, but we are overriding the default plugins list.
