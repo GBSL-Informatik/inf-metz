@@ -1,4 +1,4 @@
-tdevPath: ~/repos/teaching-dev
+tdevPath: ~/git-code/gbsl-informatik/teaching-dev
 expectedTdevBranch: main
 trackedElements:
     - src: docusaurus.config.ts
@@ -15,7 +15,7 @@ trackedElements:
       dst: .prettierrc # Consider also syncing .prettierignore
     - src: vitest.config.ts
       dst: vitest.config.ts
-    - src: docs/tdev/
+    - src: tdev-website/docs/
       dst: docs/tdev
     - src: static/bry-libs/
       dst: static/bry-libs
