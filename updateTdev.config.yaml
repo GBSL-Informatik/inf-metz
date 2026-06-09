@@ -1,12 +1,10 @@
-tdevPath: ~/repos/teaching-dev
+tdevPath: ~/git-code/gbsl-informatik/teaching-dev
 expectedTdevBranch: main
 trackedElements:
     - src: docusaurus.config.ts
       dst: docusaurus.config.ts
     - src: src/
       dst: src
-      ignore:
-          - theme/**
     - src: packages/tdev/
       dst: packages/tdev
     - src: updateSync/
@@ -17,13 +15,14 @@ trackedElements:
       dst: .prettierrc # Consider also syncing .prettierignore
     - src: vitest.config.ts
       dst: vitest.config.ts
-    - src: docs/tdev/
+    - src: tdev-website/docs/
       dst: docs/tdev
     - src: static/bry-libs/
       dst: static/bry-libs
+    - src: static/pyodide.sw.js
+      dst: static/pyodide.sw.js
 watchedElements:
     - .babel.config.js
     - package.json
     - .env.example
-    - src/theme/**
     - src/siteConfig/markdownPluginConfigs.ts # This is tracked, but we are overriding the default plugins list.
