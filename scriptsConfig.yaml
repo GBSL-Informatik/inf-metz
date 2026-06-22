@@ -23,10 +23,10 @@
           material: SOL-Text-Adventure
         - section: 07-Probe-Turtle-2
           material: tw_confidential-material/Probe-Turtle-2-GYM29-29Gn
-        # - section: 06-Information-Daten
-        #   material: Information-Daten
         - section: 08-Textverarbeitung-und-Style
           material: Textverarbeitung-Style
+        - section: 09-Information-Daten
+          material: Information-Daten
         # - section: 08-Repetition-IN-GYM1/index.mdx
         #   material: Repetition-2025/Repetition-GYM28-Kurz.mdx
 29Gd:
