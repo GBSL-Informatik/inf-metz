@@ -9,6 +9,10 @@
           material: /Structure/klassen/29Gn/einzellektion.json
         - section: /praktikum.json
           material: /Structure/klassen/29Gn/praktikum.json
+        - section: /termine_fs26.json
+          material: /Structure/klassen/29Gn/termine_fs26.json
+        - section: /termine_hs26.json
+          material: /Structure/klassen/29Gn/termine_hs26.json
         - section: 01-Onboarding
           material: Onboarding-2025
         - section: 02-Erste-Hilfe
@@ -21,8 +25,8 @@
           material: IN-Biber/2025
         - section: 06-SOL-Text-Adventure
           material: SOL-Text-Adventure
-        - section: 07-Probe-Turtle-2
-          material: tw_confidential-material/Probe-Turtle-2-GYM29-29Gn
+        # - section: 07-Probe-Turtle-2
+        #   material: tw_confidential-material/Probe-Turtle-2-GYM29-29Gn
         - section: 08-Textverarbeitung-und-Style
           material: Textverarbeitung-Style
         - section: 09-Information-Daten
@@ -39,6 +43,10 @@
           material: /Structure/klassen/29Gd/einzellektion.json
         - section: /praktikum.json
           material: /Structure/klassen/29Gd/praktikum.json
+        - section: /termine_hs25.json
+          material: /Structure/klassen/29Gd/termine_hs25.json
+        - section: /termine_hs26.json
+          material: /Structure/klassen/29Gd/termine_hs26.json
         - section: 01-Onboarding
           material: Onboarding-2025
         - section: 02-Erste-Hilfe
@@ -51,8 +59,8 @@
           material: IN-Biber/2025
         - section: 06-SOL-Text-Adventure
           material: SOL-Text-Adventure
-        - section: 07-Probe-Turtle-2
-          material: tw_confidential-material/Probe-Turtle-2-GYM29-29Gd
+        # - section: 07-Probe-Turtle-2
+        #   material: tw_confidential-material/Probe-Turtle-2-GYM29-29Gd
         - section: 08-Textverarbeitung-und-Style
           material: Textverarbeitung-Style
         - section: 09-Information-Daten
