@@ -1,4 +1,19 @@
 ---
+30Gi:
+    markers:
+        gbsl.gym30: 0
+    mappings:
+        - section: /index.mdx
+          material: /Structure/klassen/30Gi/index.mdx
+        - section: /einzellektion.json
+          material: /Structure/klassen/30Gi/einzellektion.json
+        - section: /praktikum.json
+          material: /Structure/klassen/30Gi/praktikum.json
+        - section: 01-Onboarding
+          material: Onboarding-2025
+        - section: 02-Erste-Hilfe
+          material: Erste-Hilfe
+
 29Gn:
     markers:
         gbsl.gym29: 0
