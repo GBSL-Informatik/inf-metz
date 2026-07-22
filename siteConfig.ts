@@ -150,6 +150,14 @@ const getSiteConfig: SiteConfigProvider = () => {
         },
         remarkPlugins: REMARK_PLUGINS,
         personalSpaceDocRootId: 'c3d604b1-deca-40c6-a6ae-66b74aac4f4f',
+        themeConfig: {
+            algolia: {
+                appId: 'IBFQCQ41RR',
+                apiKey: '8f66624ab045c6c9a2e062cf46ee6474',
+                indexName: 'Unterrichtswebseite',
+                searchPagePath: 'search'
+            }
+        },
         gitHub: {
             orgName: 'GBSL-Informatik',
             projectName: 'inf-metz'
