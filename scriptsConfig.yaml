@@ -13,6 +13,10 @@
           material: Onboarding-2025
         - section: 02-Erste-Hilfe
           material: Erste-Hilfe
+        - section: 03-Computer-Hacks
+          material: Computer-Hacks
+        - section: 04-Programmieren
+          material: Programmieren-2026
 
 29Gn:
     markers:
